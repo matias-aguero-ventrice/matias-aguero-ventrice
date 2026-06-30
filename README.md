@@ -10,10 +10,6 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=matias-aguero-ventrice&label=Visitas%20al%20perfil&color=ea580c&style=flat-square" alt="Profile views" />
-</p>
-
-<p align="center">
   <b>🇪🇸 Español</b> · <a href="#-english">🇬🇧 English</a>
 </p>
 
