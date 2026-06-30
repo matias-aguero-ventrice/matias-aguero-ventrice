@@ -109,7 +109,7 @@ El sitio que ves en matiasaguero.dev. Mobile-first, Lighthouse >95, con chatbot 
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=matias-aguero-ventrice&hide_border=true&background=0a0a0a&stroke=ea580c&ring=f97316&fire=f97316&currStreakLabel=f97316&sideLabels=a1a1aa&dates=52525b" alt="Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=matias-aguero-ventrice&hide_border=true&background=0a0a0a&stroke=ea580c&ring=f97316&fire=f97316&currStreakNum=fb923c&currStreakLabel=f97316&sideNums=f5f5f5&sideLabels=d4d4d8&dates=a1a1aa" alt="Streak" />
 </p>
 
 ---
