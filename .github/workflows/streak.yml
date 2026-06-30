@@ -1,0 +1,23 @@
+name: Streak Stats
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate streak card
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: "user=matias-aguero-ventrice&hide_border=true&background=0a0a0a&stroke=ea580c&ring=f97316&fire=f97316&currStreakNum=fb923c&currStreakLabel=f97316&sideNums=f5f5f5&sideLabels=d4d4d8&dates=a1a1aa&disable_animations=true"
+          path: profile/streak.svg
+          token: ${{ secrets.STREAK_STATS_TOKEN }}
+      - name: Commit SVG
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: actualizar streak stats [skip ci]"
+          file_pattern: profile/streak.svg
