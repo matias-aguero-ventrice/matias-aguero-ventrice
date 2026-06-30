@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=matias-aguero-ventrice&label=Visitas%20al%20perfil&color=ea580c&style=flat-square" alt="Profile views" />
+</p>
+
+<p align="center">
   <b>🇪🇸 Español</b> · <a href="#-english">🇬🇧 English</a>
 </p>
 
@@ -24,6 +28,16 @@ Actualmente coordino la operación administrativa y el desarrollo web interno en
 - 🟢 Disponible para oportunidades junior / semi-senior · remoto o presencial en San Juan
 - 🌐 Portfolio completo en **[matiasaguero.dev](https://www.matiasaguero.dev/)**
 - 🗣️ Español (nativo) · English (B1)
+
+**🎓 Estudios**
+- Técnico Electrónico
+- Tecnicatura Universitaria en Programación — UNSJ _(parcial)_
+- Formación autodidacta apalancada en IA
+
+**💼 Qué hago**
+- Desarrollo full-stack (Next.js · TypeScript · Supabase)
+- Integración de sistemas y arquitectura vía APIs REST
+- Coordinación ejecutiva & operaciones en proptech
 
 ---
 
@@ -48,6 +62,10 @@ Plataforma para asignar y coordinar corredores freelance y listar propiedades.
 **📝 [Certificación de corredores](https://examen-certificacion-corredor.vercel.app/)** · _demo en vivo_
 Sistema de evaluación online para certificar corredores inmobiliarios.
 `Web App` · [repo](https://github.com/matias-aguero-ventrice/examen-certificacion-corredor)
+
+**🏪 [MiSUPER](https://mi-super-nine.vercel.app/)** · _demo en vivo_
+Sistema de gestión para kioscos y comercios minoristas: ventas, control de stock e inventario.
+`Next.js` · `TypeScript` · `Supabase`
 
 **🌐 [Portfolio personal](https://www.matiasaguero.dev/)** · _open source_
 El sitio que ves en matiasaguero.dev. Mobile-first, Lighthouse >95, con chatbot IA, command palette (`Ctrl K`), modo presentación, soporte bilingüe ES/EN, generación de vCard + QR y animaciones con Framer Motion.
@@ -117,6 +135,16 @@ I currently coordinate administrative operations and internal web development at
 - 🌐 Full portfolio at **[matiasaguero.dev](https://www.matiasaguero.dev/)**
 - 🗣️ Spanish (native) · English (B1)
 
+**🎓 Education**
+- Electronics Technician
+- University Programming degree — UNSJ _(partial)_
+- Self-taught, leveraging AI tools
+
+**💼 What I do**
+- Full-stack development (Next.js · TypeScript · Supabase)
+- Systems integration & architecture via REST APIs
+- Executive coordination & operations in proptech
+
 ### 🚀 Software I build
 
 **🏢 TuMatch CRM** · _in production_ — Corporate CRM built from scratch for a Chilean proptech. Centralizes the full commercial operation of a brokerage network (leads, properties, billing, memberships) and integrates six external platforms via REST APIs. `Next.js` · `TypeScript` · `Supabase` · `Python`
@@ -128,6 +156,8 @@ I currently coordinate administrative operations and internal web development at
 **🧩 [Broker assignment system](https://listadopropiedades.vercel.app/)** · _live demo_ — Platform to assign and coordinate freelance brokers and list properties.
 
 **📝 [Broker certification](https://examen-certificacion-corredor.vercel.app/)** · _live demo_ — Online assessment system to certify real-estate brokers.
+
+**🏪 [MiSUPER](https://mi-super-nine.vercel.app/)** · _live demo_ — Management system for kiosks and retail stores: sales, stock and inventory. `Next.js` · `TypeScript` · `Supabase`
 
 **🌐 [Personal portfolio](https://www.matiasaguero.dev/)** · _open source_ — The site at matiasaguero.dev. Mobile-first, Lighthouse >95, AI chatbot, command palette, presentation mode, ES/EN i18n, vCard + QR generation, Framer Motion animations. `Next.js 15` · `TypeScript` · `Tailwind`
 
