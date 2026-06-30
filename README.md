@@ -103,14 +103,13 @@ El sitio que ves en matiasaguero.dev. Mobile-first, Lighthouse >95, con chatbot 
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats-taupe-ten-27.vercel.app/api?username=matias-aguero-ventrice&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=f97316&icon_color=ea580c&text_color=a1a1aa&count_private=true&include_all_commits=true" alt="Stats" />
-  <img height="165" src="https://github-readme-stats-taupe-ten-27.vercel.app/api/top-langs/?username=matias-aguero-ventrice&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=f97316&text_color=a1a1aa" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=matias-aguero-ventrice&hide_border=true&background=0a0a0a&stroke=ea580c&ring=f97316&fire=f97316&currStreakNum=fb923c&currStreakLabel=f97316&sideNums=f5f5f5&sideLabels=d4d4d8&dates=a1a1aa" alt="Streak" />
-</p>
+<div align="center">
+  <img height="170" src="https://github-readme-stats-taupe-ten-27.vercel.app/api?username=matias-aguero-ventrice&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=f97316&icon_color=ea580c&text_color=c9c9d3&count_private=true&include_all_commits=true" alt="Stats" />
+  <img height="170" src="https://github-readme-stats-taupe-ten-27.vercel.app/api/top-langs/?username=matias-aguero-ventrice&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=f97316&text_color=c9c9d3&langs_count=8" alt="Top Languages" />
+  <br />
+  <br />
+  <img height="170" src="./profile/streak.svg" alt="Streak Stats" />
+</div>
 
 ---
 <br>
