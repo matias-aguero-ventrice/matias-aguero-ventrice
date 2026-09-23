@@ -17,6 +17,8 @@
 
 ### 👋 Sobre mí
 
+<img align="right" width="300" src="./profile/portrait.svg" alt="Retrato ASCII de Matías" />
+
 Head of Product & Operations en **Grupo Propital**, basado en **San Juan, Argentina**. Empecé como developer construyendo sistemas reales apalancado en IA; hoy lidero producto y operaciones combinando estrategia, arquitectura y ejecución técnica. Mi base es **Técnico Electrónico**, con estudios parciales en Tecnicatura Universitaria en Programación (UNSJ).
 
 Coordino **TuMatch/Orkezto** (el CRM inmobiliario multi-marca que diseñé e implementé desde cero, en producción hace más de dos años) y **Numinap**, la app de planificación patrimonial del grupo — diseñé e impulsé la integración cross-producto entre ambas plataformas. También contribuyo con producto e ingeniería en **Propirent** (gestión de propiedades, con una integración propia hacia Numinap) y **Orvyt** (plataforma inmobiliaria multi-tenant para Latinoamérica). En paralelo dirijo **Made In 3D**, mi emprendimiento de manufactura aditiva.
@@ -129,6 +131,8 @@ El sitio que ves en matiasaguero.dev. Mobile-first, Lighthouse >95, con chatbot 
 </p>
 
 ### 👋 About me
+
+<img align="right" width="300" src="./profile/portrait.svg" alt="ASCII portrait of Matías" />
 
 Head of Product & Operations at **Grupo Propital**, based in **San Juan, Argentina**. I started out as a developer building real systems leveraging AI tools; today I lead product and operations, combining strategy, architecture, and hands-on execution. My foundation is **Electronics Technician**, with partial studies in a University Programming degree (UNSJ).
 
