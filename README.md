@@ -41,6 +41,10 @@ Coordino **TuMatch/Orkezto** (el CRM inmobiliario multi-marca que diseñé e imp
 
 ### 🚀 Software que construyo
 
+<p align="center">
+  <img width="100%" src="./profile/ecosystem-es.svg" alt="Ecosistema de producto" />
+</p>
+
 **🏢 CRM TuMatch & Orkezto** · _en producción_
 Sistema CRM corporativo multi-marca que diseñé e implementé desde cero para una proptech chilena. Centraliza toda la operación comercial de una red de corredores: gestión de leads, propiedades, cobranzas y membresías. Integra seis plataformas externas vía APIs REST.
 `Next.js` · `TypeScript` · `Supabase` · `PostgreSQL` · `Python` · `APIs REST`
@@ -153,6 +157,10 @@ I coordinate **TuMatch/Orkezto** (the multi-brand real-estate CRM I designed and
 - Executive, financial, and legal coordination in proptech
 
 ### 🚀 Software I build
+
+<p align="center">
+  <img width="100%" src="./profile/ecosystem-en.svg" alt="Product ecosystem" />
+</p>
 
 **🏢 TuMatch & Orkezto CRM** · _in production_ — Multi-brand corporate CRM built from scratch for a Chilean proptech. Centralizes the full commercial operation of a brokerage network (leads, properties, billing, memberships) and integrates six external platforms via REST APIs. `Next.js` · `TypeScript` · `Supabase` · `Python`
 
