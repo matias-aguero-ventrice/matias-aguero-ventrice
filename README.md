@@ -112,10 +112,10 @@ El sitio que ves en matiasaguero.dev. Mobile-first, Lighthouse >95, con chatbot 
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats-taupe-ten-27.vercel.app/api?username=matias-aguero-ventrice&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=f97316&icon_color=ea580c&text_color=c9c9d3&count_private=true&include_all_commits=true" alt="Stats" />
+  <img width="100%" src="./profile/heatmap.svg" alt="Contribution heatmap" />
+  <br />
+  <br />
   <img height="180" src="./profile/streak.svg" alt="Streak Stats" />
-  <br />
-  <br />
   <img height="180" src="https://github-readme-stats-taupe-ten-27.vercel.app/api/top-langs/?username=matias-aguero-ventrice&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=f97316&text_color=c9c9d3&langs_count=6" alt="Top Languages" />
 </div>
 
