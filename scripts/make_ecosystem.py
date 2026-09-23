@@ -4,7 +4,7 @@ from pathlib import Path
 
 PROFILE = Path(__file__).resolve().parent.parent / "profile"
 
-W, H = 900, 548
+W, H = 920, 548
 BG = "#0a0a0a"
 CARD = "#111113"
 BORDER = "#27272a"
@@ -36,8 +36,9 @@ TEXTS = {
                "demo en vivo · Next.js · TypeScript · Supabase"],
         "edge_a": ("link de referido", "corredor → cliente"),
         "edge_b": ("flujo de caja", "propiedad → patrimonio"),
-        "aria": "Diagrama del ecosistema Grupo Propital: TuMatch/Orkezto y Propirent envían datos a Numinap; "
-                "Orvyt y Propital se integran con Numinap, y entre sí. Aparte, MiSUPER, desarrollo propio",
+        "edge_e": ("etapa de inversión", "operaciones del cliente"),
+        "aria": "Diagrama del ecosistema Grupo Propital: TuMatch/Orkezto, Propirent y Propital envían datos a Numinap; "
+                "Orvyt se integra con Numinap y con Propital. Aparte, MiSUPER, desarrollo propio",
     },
     "en": {
         "title": "Grupo Propital ecosystem",
@@ -58,26 +59,27 @@ TEXTS = {
                "live demo · Next.js · TypeScript · Supabase"],
         "edge_a": ("referral link", "broker → client"),
         "edge_b": ("cash flow", "property → net worth"),
-        "aria": "Grupo Propital ecosystem diagram: TuMatch/Orkezto and Propirent send data to Numinap; "
-                "Orvyt and Propital integrate with Numinap and with each other. Separately, MiSUPER, a personal project",
+        "edge_e": ("investment stage", "client operations"),
+        "aria": "Grupo Propital ecosystem diagram: TuMatch/Orkezto, Propirent and Propital send data to Numinap; "
+                "Orvyt integrates with Numinap and Propital. Separately, MiSUPER, a personal project",
     },
 }
 
 NODES = {
     "tm": (30, 90, 220, 118),
     "pr": (30, 270, 220, 118),
-    "nu": (360, 180, 220, 118),
-    "orv": (650, 90, 220, 118),
-    "prop": (650, 270, 220, 118),
+    "nu": (360, 180, 200, 118),
+    "orv": (670, 90, 220, 118),
+    "prop": (670, 270, 220, 118),
 }
 
 EDGE_A = "M250,149 C305,149 305,225 360,225"
 EDGE_B = "M250,329 C305,329 305,253 360,253"
-LINK_C = "M650,149 C615,149 615,225 580,225"
-LINK_D = "M760,208 V270"
-LINK_E = "M650,329 C615,329 615,253 580,253"
+LINK_C = "M670,149 C615,149 615,225 560,225"
+LINK_D = "M780,208 V270"
+EDGE_E = "M670,329 C615,329 615,253 560,253"
 
-MS = (30, 444, 840, 80)
+MS = (30, 444, 860, 80)
 
 
 def escape_all(v):
@@ -122,13 +124,13 @@ def node(key, name, role, lines, delay, hub=False):
     return out
 
 
-def flow(pid, d, label, sub, label_y, delay):
+def flow(pid, d, label, sub, label_x, label_y, delay):
     return [
         f'<path id="{pid}" class="e" style="animation-delay:{delay}s" d="{d}" pathLength="1" '
         f'fill="none" stroke="{ACCENT}" stroke-opacity=".7" stroke-width="1.6"/>',
         f'<g class="n" style="animation-delay:{delay + 0.3}s">',
-        f'<text x="305" y="{label_y}" fill="{TEXT}" font-size="11" font-weight="600" text-anchor="middle">{label}</text>',
-        f'<text x="305" y="{label_y + 14}" fill="{MUTED}" font-size="10" text-anchor="middle">{sub}</text>',
+        f'<text x="{label_x}" y="{label_y}" fill="{TEXT}" font-size="11" font-weight="600" text-anchor="middle">{label}</text>',
+        f'<text x="{label_x}" y="{label_y + 14}" fill="{MUTED}" font-size="10" text-anchor="middle">{sub}</text>',
         "</g>",
     ] + [
         f'<circle r="3.2" fill="{ACCENT}" opacity="0">'
@@ -191,10 +193,10 @@ def render(t):
     out += node("nu", "Numinap", t["lead"], t["nu"], 0.3, hub=True)
     out += node("orv", "Orvyt", t["contrib"], t["orv"], 0.4)
     out += node("prop", "Propital", t["head"], t["prop"], 0.5)
-    out += flow("ea", EDGE_A, *t["edge_a"], 122, 0.8)
-    out += flow("eb", EDGE_B, *t["edge_b"], 356, 1.0)
+    out += flow("ea", EDGE_A, *t["edge_a"], 305, 122, 0.8)
+    out += flow("eb", EDGE_B, *t["edge_b"], 305, 356, 1.0)
+    out += flow("ee", EDGE_E, *t["edge_e"], 615, 356, 1.2)
     out += link(LINK_C, 1.1, "lc")
-    out += link(LINK_E, 1.2, "le")
     out += link(LINK_D, 1.3)
 
     x, y, w, h = MS
