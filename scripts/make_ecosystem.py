@@ -30,8 +30,8 @@ TEXTS = {
         "tm": ["CRM inmobiliario multi-marca", "leads · propiedades · cobranzas", "en producción · 6 APIs externas"],
         "pr": ["Gestión de propiedades", "integración propia hacia Numinap", None],
         "nu": ["Planificación patrimonial", "patrimonio del inversionista", "integraciones en producción"],
-        "orv": ["Plataforma multi-tenant", "pagos · mensajería · postventa", "en producción"],
-        "prop": ["Grupo proptech · Chile", "producto y operaciones del grupo", None],
+        "orv": ["Sistema para inmobiliarias", "pagos · mensajería · postventa", "en producción"],
+        "prop": ["Sistema para brokers inmobiliarios", "producto y operaciones del grupo", None],
         "ms": ["Gestión para kioscos y comercios minoristas: ventas, stock e inventario",
                "demo en vivo · Next.js · TypeScript · Supabase"],
         "edge_a": ("link de referido", "corredor → cliente"),
@@ -52,8 +52,8 @@ TEXTS = {
         "tm": ["Multi-brand real-estate CRM", "leads · properties · billing", "in production · 6 external APIs"],
         "pr": ["Property management", "own integration into Numinap", None],
         "nu": ["Wealth planning", "investor net worth", "integrations in production"],
-        "orv": ["Multi-tenant platform", "payments · messaging · after-sales", "in production"],
-        "prop": ["Proptech group · Chile", "group-wide product & operations", None],
+        "orv": ["Platform for real-estate agencies", "payments · messaging · after-sales", "in production"],
+        "prop": ["Platform for real-estate brokers", "group-wide product & operations", None],
         "ms": ["Management system for kiosks and small retailers: sales, stock and inventory",
                "live demo · Next.js · TypeScript · Supabase"],
         "edge_a": ("referral link", "broker → client"),
@@ -64,18 +64,18 @@ TEXTS = {
 }
 
 NODES = {
-    "tm": (30, 90, 230, 118),
-    "pr": (30, 270, 230, 118),
-    "nu": (380, 180, 220, 118),
-    "orv": (670, 90, 200, 118),
-    "prop": (670, 270, 200, 118),
+    "tm": (30, 90, 220, 118),
+    "pr": (30, 270, 220, 118),
+    "nu": (360, 180, 220, 118),
+    "orv": (650, 90, 220, 118),
+    "prop": (650, 270, 220, 118),
 }
 
-EDGE_A = "M260,149 C320,149 320,225 380,225"
-EDGE_B = "M260,329 C320,329 320,253 380,253"
-LINK_C = "M670,149 C635,149 635,225 600,225"
-LINK_D = "M770,208 V270"
-LINK_E = "M670,329 C635,329 635,253 600,253"
+EDGE_A = "M250,149 C305,149 305,225 360,225"
+EDGE_B = "M250,329 C305,329 305,253 360,253"
+LINK_C = "M650,149 C615,149 615,225 580,225"
+LINK_D = "M760,208 V270"
+LINK_E = "M650,329 C615,329 615,253 580,253"
 
 MS = (30, 444, 840, 80)
 
@@ -127,8 +127,8 @@ def flow(pid, d, label, sub, label_y, delay):
         f'<path id="{pid}" class="e" style="animation-delay:{delay}s" d="{d}" pathLength="1" '
         f'fill="none" stroke="{ACCENT}" stroke-opacity=".7" stroke-width="1.6"/>',
         f'<g class="n" style="animation-delay:{delay + 0.3}s">',
-        f'<text x="320" y="{label_y}" fill="{TEXT}" font-size="11" font-weight="600" text-anchor="middle">{label}</text>',
-        f'<text x="320" y="{label_y + 14}" fill="{MUTED}" font-size="10" text-anchor="middle">{sub}</text>',
+        f'<text x="305" y="{label_y}" fill="{TEXT}" font-size="11" font-weight="600" text-anchor="middle">{label}</text>',
+        f'<text x="305" y="{label_y + 14}" fill="{MUTED}" font-size="10" text-anchor="middle">{sub}</text>',
         "</g>",
     ] + [
         f'<circle r="3.2" fill="{ACCENT}" opacity="0">'
