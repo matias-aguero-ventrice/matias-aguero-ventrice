@@ -24,9 +24,11 @@ TOP = 46
 GAMMA = 0.9
 
 BG = "#0a0a0a"
-INK = "#fb923c"
+INK = "#fde7d4"
+ACCENT = "#f97316"
 MUTED = "#a1a1aa"
-PROMPT = "matias@github ~ $ whoami"
+USER_HOST = "matias@github"
+PROMPT = " ~ $ whoami"
 
 
 def prep(path, head_frac):
@@ -81,7 +83,8 @@ def render(lines):
         f'viewBox="0 0 {width} {height}" role="img" aria-label="Retrato ASCII de Matías Agüero Ventrice">',
         f"<style>text{{font-family:{mono};white-space:pre;}}</style>",
         f'<rect width="{width}" height="{height}" rx="4.5" fill="{BG}"/>',
-        f'<text x="{PAD}" y="28" fill="{MUTED}" font-size="12">{PROMPT}</text>',
+        f'<text x="{PAD}" y="28" fill="{MUTED}" font-size="12">'
+        f'<tspan fill="{ACCENT}">{USER_HOST}</tspan>{PROMPT}</text>',
         "<defs>",
     ]
     for i in range(len(lines)):
