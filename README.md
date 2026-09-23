@@ -17,6 +17,8 @@
 
 ### 👋 Sobre mí
 
+<img align="right" width="300" src="./profile/portrait.svg" alt="Retrato ASCII de Matías" />
+
 Head of Product & Operations en **Grupo Propital**, basado en **San Juan, Argentina**. Empecé como developer construyendo sistemas reales apalancado en IA; hoy lidero producto y operaciones combinando estrategia, arquitectura y ejecución técnica. Mi base es **Técnico Electrónico**, con estudios parciales en Tecnicatura Universitaria en Programación (UNSJ).
 
 Coordino **TuMatch/Orkezto** (el CRM inmobiliario multi-marca que diseñé e implementé desde cero, en producción hace más de dos años) y **Numinap**, la app de planificación patrimonial del grupo — diseñé e impulsé la integración cross-producto entre ambas plataformas. También contribuyo con producto e ingeniería en **Propirent** (gestión de propiedades, con una integración propia hacia Numinap) y **Orvyt** (plataforma inmobiliaria multi-tenant para Latinoamérica). En paralelo dirijo **Made In 3D**, mi emprendimiento de manufactura aditiva.
@@ -112,10 +114,10 @@ El sitio que ves en matiasaguero.dev. Mobile-first, Lighthouse >95, con chatbot 
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats-taupe-ten-27.vercel.app/api?username=matias-aguero-ventrice&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=f97316&icon_color=ea580c&text_color=c9c9d3&count_private=true&include_all_commits=true" alt="Stats" />
+  <img width="100%" src="./profile/heatmap.svg" alt="Contribution heatmap" />
+  <br />
+  <br />
   <img height="180" src="./profile/streak.svg" alt="Streak Stats" />
-  <br />
-  <br />
   <img height="180" src="https://github-readme-stats-taupe-ten-27.vercel.app/api/top-langs/?username=matias-aguero-ventrice&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=f97316&text_color=c9c9d3&langs_count=6" alt="Top Languages" />
 </div>
 
@@ -129,6 +131,8 @@ El sitio que ves en matiasaguero.dev. Mobile-first, Lighthouse >95, con chatbot 
 </p>
 
 ### 👋 About me
+
+<img align="right" width="300" src="./profile/portrait.svg" alt="ASCII portrait of Matías" />
 
 Head of Product & Operations at **Grupo Propital**, based in **San Juan, Argentina**. I started out as a developer building real systems leveraging AI tools; today I lead product and operations, combining strategy, architecture, and hands-on execution. My foundation is **Electronics Technician**, with partial studies in a University Programming degree (UNSJ).
 
