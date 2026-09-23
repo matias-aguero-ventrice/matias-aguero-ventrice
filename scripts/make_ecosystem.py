@@ -4,7 +4,7 @@ from pathlib import Path
 
 PROFILE = Path(__file__).resolve().parent.parent / "profile"
 
-W, H = 920, 548
+W, H = 920, 562
 BG = "#0a0a0a"
 CARD = "#111113"
 BORDER = "#27272a"
@@ -22,6 +22,7 @@ TEXTS = {
         "subtitle": "Cómo se conectan los productos que construyo y coordino",
         "legend_flow": "flujo de datos",
         "legend_link": "integración",
+        "legend_plan": "en desarrollo",
         "built": "DISEÑÉ Y CONSTRUÍ",
         "lead": "COORDINO",
         "contrib": "CONTRIBUYO",
@@ -37,14 +38,17 @@ TEXTS = {
         "edge_a": ("link de referido", "corredor → cliente"),
         "edge_b": ("flujo de caja", "propiedad → patrimonio"),
         "edge_e": ("etapa de inversión", "operaciones del cliente"),
+        "plan_d": ("catálogos de inmobiliarias", "en desarrollo"),
+        "plan_f": "catálogos compartidos · en desarrollo",
         "aria": "Diagrama del ecosistema Grupo Propital: TuMatch/Orkezto, Propirent y Propital envían datos a Numinap; "
-                "Orvyt se integra con Numinap y con Propital. Aparte, MiSUPER, desarrollo propio",
+                "Orvyt se integra con Numinap. En desarrollo: catálogos compartidos entre Propital, Orvyt y TuMatch/Orkezto. Aparte, MiSUPER, desarrollo propio",
     },
     "en": {
         "title": "Grupo Propital ecosystem",
         "subtitle": "How the products I build and lead connect",
         "legend_flow": "data flow",
         "legend_link": "integration",
+        "legend_plan": "in progress",
         "built": "DESIGNED & BUILT",
         "lead": "LEAD",
         "contrib": "CONTRIBUTOR",
@@ -60,14 +64,16 @@ TEXTS = {
         "edge_a": ("referral link", "broker → client"),
         "edge_b": ("cash flow", "property → net worth"),
         "edge_e": ("investment stage", "client operations"),
+        "plan_d": ("agency catalogs", "in progress"),
+        "plan_f": "shared catalogs · in progress",
         "aria": "Grupo Propital ecosystem diagram: TuMatch/Orkezto, Propirent and Propital send data to Numinap; "
-                "Orvyt integrates with Numinap and Propital. Separately, MiSUPER, a personal project",
+                "Orvyt integrates with Numinap. In progress: shared catalogs between Propital, Orvyt and TuMatch/Orkezto. Separately, MiSUPER, a personal project",
     },
 }
 
 NODES = {
-    "tm": (30, 90, 220, 118),
-    "pr": (30, 270, 220, 118),
+    "pr": (30, 90, 220, 118),
+    "tm": (30, 270, 220, 118),
     "nu": (360, 180, 200, 118),
     "orv": (670, 90, 220, 118),
     "prop": (670, 270, 220, 118),
@@ -76,10 +82,11 @@ NODES = {
 EDGE_A = "M250,149 C305,149 305,225 360,225"
 EDGE_B = "M250,329 C305,329 305,253 360,253"
 LINK_C = "M670,149 C615,149 615,225 560,225"
-LINK_D = "M780,208 V270"
+PLAN_D = "M780,208 V270"
+PLAN_F = "M140,388 V404 Q140,414 150,414 H770 Q780,414 780,404 V388"
 EDGE_E = "M670,329 C615,329 615,253 560,253"
 
-MS = (30, 444, 860, 80)
+MS = (30, 462, 860, 80)
 
 
 def escape_all(v):
@@ -160,6 +167,15 @@ def link(d, delay, pid=None):
     return out
 
 
+def planned(d, delay):
+    return [
+        f'<g class="n" style="animation-delay:{delay}s">',
+        f'<path class="p" d="{d}" fill="none" stroke="{ACCENT}" stroke-opacity=".55" '
+        'stroke-width="1.6" stroke-dasharray="6 5"/>',
+        "</g>",
+    ]
+
+
 def render(t):
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
@@ -182,10 +198,12 @@ def render(t):
         f'<text x="30" y="38" fill="{ACCENT}" font-size="18" font-weight="600">{t["title"]}</text>',
         f'<text x="30" y="60" fill="{MUTED}" font-size="12">{t["subtitle"]}</text>',
         f'<g fill="{MUTED}" font-size="10.5">',
-        f'<path d="M{W - 250},34 h22" stroke="{ACCENT}" stroke-width="1.6"/>',
-        f'<text x="{W - 222}" y="38">{t["legend_flow"]}</text>',
-        f'<path d="M{W - 130},34 h22" stroke="{LINK}" stroke-width="1.6" stroke-dasharray="4 4"/>',
-        f'<text x="{W - 102}" y="38">{t["legend_link"]}</text>',
+        f'<path d="M{W - 380},34 h22" stroke="{ACCENT}" stroke-width="1.6"/>',
+        f'<text x="{W - 352}" y="38">{t["legend_flow"]}</text>',
+        f'<path d="M{W - 260},34 h22" stroke="{LINK}" stroke-width="1.6" stroke-dasharray="4 4"/>',
+        f'<text x="{W - 232}" y="38">{t["legend_link"]}</text>',
+        f'<path d="M{W - 150},34 h22" stroke="{ACCENT}" stroke-opacity=".55" stroke-width="1.6" stroke-dasharray="6 5"/>',
+        f'<text x="{W - 122}" y="38">{t["legend_plan"]}</text>',
         "</g>",
     ]
     out += node("tm", "TuMatch / Orkezto", t["built"], t["tm"], 0.1)
@@ -193,11 +211,25 @@ def render(t):
     out += node("nu", "Numinap", t["lead"], t["nu"], 0.3, hub=True)
     out += node("orv", "Orvyt", t["contrib"], t["orv"], 0.4)
     out += node("prop", "Propital", t["head"], t["prop"], 0.5)
-    out += flow("ea", EDGE_A, *t["edge_a"], 305, 122, 0.8)
-    out += flow("eb", EDGE_B, *t["edge_b"], 305, 356, 1.0)
+    out += flow("eb", EDGE_A, *t["edge_b"], 305, 122, 0.8)
+    out += flow("ea", EDGE_B, *t["edge_a"], 305, 356, 1.0)
     out += flow("ee", EDGE_E, *t["edge_e"], 615, 356, 1.2)
     out += link(LINK_C, 1.1, "lc")
-    out += link(LINK_D, 1.3)
+    out += planned(PLAN_D, 1.4)
+    out += [
+        '<g class="n" style="animation-delay:1.6s">',
+        f'<text x="770" y="236" fill="{TEXT}" font-size="11" font-weight="600" text-anchor="end">{t["plan_d"][0]}</text>',
+        f'<text x="770" y="250" fill="{MUTED}" font-size="10" text-anchor="end">{t["plan_d"][1]}</text>',
+        "</g>",
+    ]
+    out += planned(PLAN_F, 1.5)
+    label_w = len(unescape(t["plan_f"])) * 5.6 + 24
+    out += [
+        '<g class="n" style="animation-delay:1.7s">',
+        f'<rect x="{460 - label_w / 2:.0f}" y="405" width="{label_w:.0f}" height="18" fill="{BG}"/>',
+        f'<text x="460" y="418" fill="{TEXT}" font-size="10.5" text-anchor="middle">{t["plan_f"]}</text>',
+        "</g>",
+    ]
 
     x, y, w, h = MS
     out += [
