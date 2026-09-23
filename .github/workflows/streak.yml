@@ -25,8 +25,12 @@ jobs:
         run: python3 scripts/contrib_heatmap.py
         env:
           GH_TOKEN: ${{ secrets.STREAK_STATS_TOKEN }}
+      - name: Generate languages card
+        run: python3 scripts/top_langs.py
+        env:
+          GH_TOKEN: ${{ secrets.STREAK_STATS_TOKEN }}
       - name: Commit SVGs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: actualizar streak stats y heatmap [skip ci]"
-          file_pattern: profile/streak.svg profile/heatmap.svg
+          commit_message: "chore: actualizar streak stats, heatmap y lenguajes [skip ci]"
+          file_pattern: profile/streak.svg profile/heatmap.svg profile/langs.svg
