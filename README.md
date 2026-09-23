@@ -61,19 +61,7 @@ Plataforma inmobiliaria multi-tenant para Latinoamérica. Contribuí integracion
 Sitio web institucional de la proptech, construido con stack moderno.
 `Next.js` · `TypeScript` → [repo](https://github.com/matias-aguero-ventrice/tumatch-web)
 
-**📐 [Rental Profitability Analyzer](https://github.com/matias-aguero-ventrice/rental-profitability-analyzer)** · _público_
-Herramienta que calcula la rentabilidad de propiedades en arriendo y genera reportes en PDF con firma digital. Documentado con guía de setup y configuración.
-`TypeScript` · `Generación de PDF` · `Firma digital`
-
-**🧩 [Sistema de asignaciones](https://listadopropiedades.vercel.app/)** · _demo en vivo_
-Plataforma para asignar y coordinar corredores freelance y listar propiedades.
-`Web App` · [repo](https://github.com/matias-aguero-ventrice/tumatch-asignaciones)
-
-**📝 [Certificación de corredores](https://examen-certificacion-corredor.vercel.app/)** · _demo en vivo_
-Sistema de evaluación online para certificar corredores inmobiliarios.
-`Web App` · [repo](https://github.com/matias-aguero-ventrice/examen-certificacion-corredor)
-
-**🏪 [MiSUPER](https://mi-super-nine.vercel.app/)** · _demo en vivo_
+**🏪 [MiSUPER](https://www.misuper.ar/)** · _demo en vivo_
 Sistema de gestión para kioscos y comercios minoristas: ventas, control de stock e inventario.
 `Next.js` · `TypeScript` · `Supabase`
 
@@ -170,13 +158,7 @@ I coordinate **TuMatch/Orkezto** (the multi-brand real-estate CRM I designed and
 
 **🌐 [TuMatch Web](https://www.tumatchinmobiliario.com/)** · _public_ — Institutional website for the proptech. `Next.js` · `TypeScript`
 
-**📐 [Rental Profitability Analyzer](https://github.com/matias-aguero-ventrice/rental-profitability-analyzer)** · _public_ — Tool that computes rental property profitability and generates PDF reports with digital signature. `TypeScript` · `PDF` · `Digital signature`
-
-**🧩 [Broker assignment system](https://listadopropiedades.vercel.app/)** · _live demo_ — Platform to assign and coordinate freelance brokers and list properties.
-
-**📝 [Broker certification](https://examen-certificacion-corredor.vercel.app/)** · _live demo_ — Online assessment system to certify real-estate brokers.
-
-**🏪 [MiSUPER](https://mi-super-nine.vercel.app/)** · _live demo_ — Management system for kiosks and retail stores: sales, stock and inventory. `Next.js` · `TypeScript` · `Supabase`
+**🏪 [MiSUPER](https://www.misuper.ar/)** · _live demo_ — Management system for kiosks and retail stores: sales, stock and inventory. `Next.js` · `TypeScript` · `Supabase`
 
 **🌐 [Personal portfolio](https://www.matiasaguero.dev/)** · _open source_ — The site at matiasaguero.dev. Mobile-first, Lighthouse >95, AI chatbot, command palette, presentation mode, ES/EN i18n, vCard + QR generation, Framer Motion animations. `Next.js 15` · `TypeScript` · `Tailwind`
 
