@@ -37,7 +37,7 @@ TEXTS = {
         "edge_a": ("link de referido", "corredor → cliente"),
         "edge_b": ("flujo de caja", "propiedad → patrimonio"),
         "aria": "Diagrama del ecosistema Grupo Propital: TuMatch/Orkezto y Propirent envían datos a Numinap; "
-                "Orvyt se integra con Numinap y Propital. Aparte, MiSUPER, desarrollo propio",
+                "Orvyt y Propital se integran con Numinap, y entre sí. Aparte, MiSUPER, desarrollo propio",
     },
     "en": {
         "title": "Grupo Propital ecosystem",
@@ -59,7 +59,7 @@ TEXTS = {
         "edge_a": ("referral link", "broker → client"),
         "edge_b": ("cash flow", "property → net worth"),
         "aria": "Grupo Propital ecosystem diagram: TuMatch/Orkezto and Propirent send data to Numinap; "
-                "Orvyt integrates with Numinap and Propital. Separately, MiSUPER, a personal project",
+                "Orvyt and Propital integrate with Numinap and with each other. Separately, MiSUPER, a personal project",
     },
 }
 
@@ -75,6 +75,7 @@ EDGE_A = "M260,149 C320,149 320,225 380,225"
 EDGE_B = "M260,329 C320,329 320,253 380,253"
 LINK_C = "M670,149 C635,149 635,225 600,225"
 LINK_D = "M770,208 V270"
+LINK_E = "M670,329 C635,329 635,253 600,253"
 
 MS = (30, 444, 840, 80)
 
@@ -138,12 +139,23 @@ def flow(pid, d, label, sub, label_y, delay):
     ]
 
 
-def link(d, delay):
-    return [
+def link(d, delay, pid=None):
+    id_attr = f' id="{pid}"' if pid else ""
+    out = [
         f'<g class="n" style="animation-delay:{delay}s">',
-        f'<path class="p" d="{d}" fill="none" stroke="{LINK}" stroke-width="1.6" stroke-dasharray="4 4"/>',
+        f'<path class="p"{id_attr} d="{d}" fill="none" stroke="{LINK}" '
+        'stroke-width="1.6" stroke-dasharray="4 4"/>',
         "</g>",
     ]
+    if pid:
+        begin = delay + 0.9
+        out.append(
+            f'<circle r="2.6" fill="{MUTED}" opacity="0">'
+            f'<set attributeName="opacity" to=".9" begin="{begin:.1f}s"/>'
+            f'<animateMotion dur="2.6s" repeatCount="indefinite" begin="{begin:.1f}s">'
+            f'<mpath href="#{pid}" xlink:href="#{pid}"/></animateMotion></circle>'
+        )
+    return out
 
 
 def render(t):
@@ -181,8 +193,9 @@ def render(t):
     out += node("prop", "Propital", t["head"], t["prop"], 0.5)
     out += flow("ea", EDGE_A, *t["edge_a"], 122, 0.8)
     out += flow("eb", EDGE_B, *t["edge_b"], 356, 1.0)
-    out += link(LINK_C, 1.1)
-    out += link(LINK_D, 1.2)
+    out += link(LINK_C, 1.1, "lc")
+    out += link(LINK_E, 1.2, "le")
+    out += link(LINK_D, 1.3)
 
     x, y, w, h = MS
     out += [
