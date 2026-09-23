@@ -53,7 +53,7 @@ def fetch(token):
 
 
 def fmt(n):
-    return f"{n:,}".replace(",", ".")
+    return f"{n:,}"
 
 
 def render(calendar):
