@@ -42,7 +42,7 @@ Coordino **TuMatch/Orkezto** (el CRM inmobiliario multi-marca que diseñé e imp
 ### 🚀 Software que construyo
 
 <p align="center">
-  <img width="100%" src="./profile/ecosystem-es.svg?v=6" alt="Ecosistema de producto" />
+  <img width="100%" src="./profile/ecosystem-es.svg?v=7" alt="Ecosistema de producto" />
 </p>
 
 **🏢 CRM TuMatch & Orkezto** · _en producción_
@@ -61,9 +61,9 @@ Plataforma inmobiliaria multi-tenant para Latinoamérica. Contribuí integracion
 Sitio web institucional de la proptech, construido con stack moderno.
 `Next.js` · `TypeScript` → [repo](https://github.com/matias-aguero-ventrice/tumatch-web)
 
-**🏪 [MiSUPER](https://www.misuper.ar/)** · _demo en vivo_
-Sistema de gestión para kioscos y comercios minoristas: ventas, control de stock e inventario.
-`Next.js` · `TypeScript` · `Supabase`
+<p align="center">
+  <a href="https://www.misuper.ar/"><img width="100%" src="./profile/misuper-es.svg?v=1" alt="MiSUPER: punto de venta y gestión para kioscos" /></a>
+</p>
 
 **🌐 [Portfolio personal](https://www.matiasaguero.dev/)** · _open source_
 El sitio que ves en matiasaguero.dev. Mobile-first, Lighthouse >95, con chatbot IA, command palette (`Ctrl K`), modo presentación, soporte bilingüe ES/EN, generación de vCard + QR y animaciones con Framer Motion.
@@ -147,7 +147,7 @@ I coordinate **TuMatch/Orkezto** (the multi-brand real-estate CRM I designed and
 ### 🚀 Software I build
 
 <p align="center">
-  <img width="100%" src="./profile/ecosystem-en.svg?v=6" alt="Product ecosystem" />
+  <img width="100%" src="./profile/ecosystem-en.svg?v=7" alt="Product ecosystem" />
 </p>
 
 **🏢 TuMatch & Orkezto CRM** · _in production_ — Multi-brand corporate CRM built from scratch for a Chilean proptech. Centralizes the full commercial operation of a brokerage network (leads, properties, billing, memberships) and integrates six external platforms via REST APIs. `Next.js` · `TypeScript` · `Supabase` · `Python`
@@ -158,7 +158,9 @@ I coordinate **TuMatch/Orkezto** (the multi-brand real-estate CRM I designed and
 
 **🌐 [TuMatch Web](https://www.tumatchinmobiliario.com/)** · _public_ — Institutional website for the proptech. `Next.js` · `TypeScript`
 
-**🏪 [MiSUPER](https://www.misuper.ar/)** · _live demo_ — Management system for kiosks and retail stores: sales, stock and inventory. `Next.js` · `TypeScript` · `Supabase`
+<p align="center">
+  <a href="https://www.misuper.ar/"><img width="100%" src="./profile/misuper-en.svg?v=1" alt="MiSUPER: point of sale and management for kiosks" /></a>
+</p>
 
 **🌐 [Personal portfolio](https://www.matiasaguero.dev/)** · _open source_ — The site at matiasaguero.dev. Mobile-first, Lighthouse >95, AI chatbot, command palette, presentation mode, ES/EN i18n, vCard + QR generation, Framer Motion animations. `Next.js 15` · `TypeScript` · `Tailwind`
 

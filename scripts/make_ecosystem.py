@@ -4,7 +4,7 @@ from pathlib import Path
 
 PROFILE = Path(__file__).resolve().parent.parent / "profile"
 
-W, H = 920, 562
+W, H = 920, 446
 BG = "#0a0a0a"
 CARD = "#111113"
 BORDER = "#27272a"
@@ -27,21 +27,18 @@ TEXTS = {
         "lead": "COORDINO",
         "contrib": "CONTRIBUYO",
         "head": "LIDERO PRODUCTO & OPS",
-        "own": "DESARROLLO PROPIO",
         "tm": ["CRM inmobiliario multi-marca", "leads · propiedades · cobranzas", "en producción · 6 APIs externas"],
         "pr": ["Gestión de propiedades", "integración propia hacia Numinap", None],
         "nu": ["Planificación patrimonial", "patrimonio del inversionista", "integraciones en producción"],
         "orv": ["Sistema para inmobiliarias", "pagos · mensajería · postventa", "en producción"],
         "prop": ["Sistema para brokers inmobiliarios", "producto y operaciones del grupo", None],
-        "ms": ["Gestión para kioscos y comercios minoristas: ventas, stock e inventario",
-               "demo en vivo · Next.js · TypeScript · Supabase"],
         "edge_a": ("link de referido", "corredor → cliente"),
         "edge_b": ("flujo de caja", "propiedad → patrimonio"),
         "edge_e": ("etapa de inversión", "operaciones del cliente"),
         "plan_d": ("catálogos de inmobiliarias", "en desarrollo"),
         "plan_f": "catálogos compartidos · en desarrollo",
         "aria": "Diagrama del ecosistema Grupo Propital: TuMatch/Orkezto, Propirent y Propital envían datos a Numinap; "
-                "Orvyt se integra con Numinap. En desarrollo: catálogos compartidos entre Propital, Orvyt y TuMatch/Orkezto. Aparte, MiSUPER, desarrollo propio",
+                "Orvyt se integra con Numinap. En desarrollo: catálogos compartidos entre Propital, Orvyt y TuMatch/Orkezto.",
     },
     "en": {
         "title": "Grupo Propital ecosystem",
@@ -53,21 +50,18 @@ TEXTS = {
         "lead": "LEAD",
         "contrib": "CONTRIBUTOR",
         "head": "HEAD OF PRODUCT & OPS",
-        "own": "PERSONAL PROJECT",
         "tm": ["Multi-brand real-estate CRM", "leads · properties · billing", "in production · 6 external APIs"],
         "pr": ["Property management", "own integration into Numinap", None],
         "nu": ["Wealth planning", "investor net worth", "integrations in production"],
         "orv": ["Platform for real-estate agencies", "payments · messaging · after-sales", "in production"],
         "prop": ["Platform for real-estate brokers", "group-wide product & operations", None],
-        "ms": ["Management system for kiosks and small retailers: sales, stock and inventory",
-               "live demo · Next.js · TypeScript · Supabase"],
         "edge_a": ("referral link", "broker → client"),
         "edge_b": ("cash flow", "property → net worth"),
         "edge_e": ("investment stage", "client operations"),
         "plan_d": ("agency catalogs", "in progress"),
         "plan_f": "shared catalogs · in progress",
         "aria": "Grupo Propital ecosystem diagram: TuMatch/Orkezto, Propirent and Propital send data to Numinap; "
-                "Orvyt integrates with Numinap. In progress: shared catalogs between Propital, Orvyt and TuMatch/Orkezto. Separately, MiSUPER, a personal project",
+                "Orvyt integrates with Numinap. In progress: shared catalogs between Propital, Orvyt and TuMatch/Orkezto.",
     },
 }
 
@@ -86,7 +80,6 @@ PLAN_D = "M780,208 V270"
 PLAN_F = "M140,388 V404 Q140,414 150,414 H770 Q780,414 780,404 V388"
 EDGE_E = "M670,329 C615,329 615,253 560,253"
 
-MS = (30, 462, 860, 80)
 
 
 def escape_all(v):
@@ -231,18 +224,7 @@ def render(t):
         "</g>",
     ]
 
-    x, y, w, h = MS
-    out += [
-        '<g class="n" style="animation-delay:1.4s">',
-        f'<path d="M30,{y - 22} H{W - 30}" stroke="{BORDER}" stroke-dasharray="2 5"/>',
-        f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="8" fill="{CARD}" stroke="{BORDER}"/>',
-        *chip(x + 14, y + 14, t["own"]),
-        f'<text x="{x + 14}" y="{y + 60}" fill="{NAME}" font-size="16" font-weight="600">MiSUPER</text>',
-        f'<text x="{x + 200}" y="{y + 36}" fill="{TEXT}" font-size="11.5">{t["ms"][0]}</text>',
-        *live(x + 200, y + 58, t["ms"][1]),
-        "</g>",
-        "</svg>",
-    ]
+    out.append("</svg>")
     return "\n".join(out) + "\n"
 
 
