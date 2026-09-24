@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg?v=1" alt="Matías Agüero Ventrice — Head of Product & Operations" width="100%">
+  <img src="./assets/banner.svg?v=2" alt="Matías Agüero Ventrice — Head of Product & Operations" width="100%">
 </p>
 
 <p align="center">
