@@ -11,25 +11,25 @@ text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;}
 <text x="25" y="35" fill="#f97316" font-size="18" font-weight="600">Most Used Languages</text>
 <clipPath id="bar"><rect x="25" y="55" width="300" height="8" rx="4"/></clipPath>
 <g class="bar" clip-path="url(#bar)">
-<rect x="25.00" y="55" width="239.06" height="8" fill="#3178c6"/>
-<rect x="263.56" y="55" width="30.97" height="8" fill="#e34c26"/>
-<rect x="294.03" y="55" width="20.65" height="8" fill="#336790"/>
-<rect x="314.18" y="55" width="7.11" height="8" fill="#f1e05a"/>
-<rect x="320.79" y="55" width="3.03" height="8" fill="#663399"/>
-<rect x="323.31" y="55" width="1.95" height="8" fill="#3572A5"/>
+<rect x="25.00" y="55" width="239.17" height="8" fill="#3178c6"/>
+<rect x="263.67" y="55" width="30.94" height="8" fill="#e34c26"/>
+<rect x="294.10" y="55" width="20.63" height="8" fill="#336790"/>
+<rect x="314.24" y="55" width="7.10" height="8" fill="#f1e05a"/>
+<rect x="320.84" y="55" width="3.02" height="8" fill="#663399"/>
+<rect x="323.36" y="55" width="1.90" height="8" fill="#3572A5"/>
 <rect x="324.76" y="55" width="0.24" height="8" fill="#3f3f46"/>
 </g>
 <g class="n" style="animation-delay:0.40s">
 <circle cx="30" cy="91" r="5" fill="#3178c6"/>
-<text x="41" y="95" fill="#c9c9d3" font-size="12">TypeScript 79.52%</text>
+<text x="41" y="95" fill="#c9c9d3" font-size="12">TypeScript 79.56%</text>
 </g>
 <g class="n" style="animation-delay:0.48s">
 <circle cx="190" cy="91" r="5" fill="#e34c26"/>
-<text x="201" y="95" fill="#c9c9d3" font-size="12">HTML 10.16%</text>
+<text x="201" y="95" fill="#c9c9d3" font-size="12">HTML 10.15%</text>
 </g>
 <g class="n" style="animation-delay:0.56s">
 <circle cx="30" cy="121" r="5" fill="#336790"/>
-<text x="41" y="125" fill="#c9c9d3" font-size="12">PLpgSQL 6.72%</text>
+<text x="41" y="125" fill="#c9c9d3" font-size="12">PLpgSQL 6.71%</text>
 </g>
 <g class="n" style="animation-delay:0.64s">
 <circle cx="190" cy="121" r="5" fill="#f1e05a"/>
@@ -41,6 +41,6 @@ text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;}
 </g>
 <g class="n" style="animation-delay:0.80s">
 <circle cx="190" cy="151" r="5" fill="#3572A5"/>
-<text x="201" y="155" fill="#c9c9d3" font-size="12">Python 0.48%</text>
+<text x="201" y="155" fill="#c9c9d3" font-size="12">Python 0.47%</text>
 </g>
 </svg>
