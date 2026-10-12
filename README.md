@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./assets/banner.svg?v=3" alt="Matías Agüero Ventrice — Head of Product & Operations" width="100%">
+  <img src="./assets/banner.svg?v=3" alt="Matías Agüero Ventrice, Head of Product & Operations" width="100%">
 </p>
 
 <p align="center">
   <a href="https://www.matiasaguero.dev/"><img src="https://img.shields.io/badge/Portfolio-matiasaguero.dev-ea580c?style=flat-square&labelColor=0a0a0a&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="https://linkedin.com/in/matias-valentín-aguero-ventrice"><img src="https://img.shields.io/badge/LinkedIn-Conectar-f97316?style=flat-square&labelColor=0a0a0a&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://linkedin.com/in/matias-valent%C3%ADn-aguero-ventrice"><img src="https://img.shields.io/badge/LinkedIn-Escribime-f97316?style=flat-square&labelColor=0a0a0a&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 Head of Product & Operations en **Grupo Propital**, desde **San Juan, Argentina**. Empecé como developer construyendo sistemas reales con IA; hoy lidero producto y operaciones de todo el grupo, combinando estrategia, arquitectura y ejecución técnica.
 
-Diseñé desde cero el CRM que opera **TuMatch/Orkezto** (en producción hace más de dos años) y las integraciones que conectan el ecosistema con **Numinap**. En paralelo dirijo **Made In 3D**, mi emprendimiento de manufactura aditiva.
+Diseñé desde cero el CRM que opera **TuMatch/Orkezto** (en producción) y las integraciones que conectan el ecosistema con **Numinap**. En paralelo dirijo **Made In 3D**, mi emprendimiento de manufactura aditiva.
 
 **💼 Qué hago**
 - Producto y operaciones de TuMatch/Orkezto, Numinap, Propital, Propirent y Orvyt
@@ -46,10 +46,10 @@ Diseñé desde cero el CRM que opera **TuMatch/Orkezto** (en producción hace m�
   <img width="100%" src="./profile/ecosystem-es.svg?v=7" alt="Ecosistema Grupo Propital" />
 </p>
 
-- **🏢 CRM TuMatch & Orkezto** · _en producción_ — CRM white-label multi-marca que diseñé desde cero: leads, propiedades, cobranzas y membresías de toda la red, con seis integraciones externas. `Next.js` · `TypeScript` · `Supabase` · `Python`
-- **🏘️ Orvyt** · _en producción_ — integraciones de pago (MercadoPago, Stripe), mensajería (Twilio WhatsApp/SMS), módulo de postventa y dark mode. `Next.js` · `Supabase` · `Stripe`
-- **🌐 [TuMatch Web](https://www.tumatchinmobiliario.com/)** · _público_ — sitio institucional de la proptech. `Next.js` · `TypeScript`
-- **🌐 [Portfolio](https://www.matiasaguero.dev/)** · _open source_ — Lighthouse >95, chatbot IA, command palette y ES/EN. `Next.js 15` · `Tailwind` · `Framer Motion`
+- **🏢 CRM TuMatch & Orkezto** · _en producción_: CRM white-label multi-marca que diseñé desde cero: leads, propiedades, cobranzas y membresías de toda la red, con seis integraciones externas. `Next.js` · `TypeScript` · `Supabase` · `Python`
+- **🏘️ Orvyt** · _en producción_: integraciones de pago (MercadoPago, Stripe), mensajería (Twilio WhatsApp/SMS), módulo de postventa y dark mode. `Next.js` · `Supabase` · `Stripe`
+- **🌐 [TuMatch Web](https://www.tumatchinmobiliario.com/)** · _público_: sitio institucional de la proptech. `Next.js` · `TypeScript`
+- **🌐 [Portfolio](https://www.matiasaguero.dev/)** · _open source_: Lighthouse >95, chatbot IA, command palette y ES/EN. `Next.js 15` · `Tailwind` · `Framer Motion`
 
 <p align="center">
   <a href="https://www.misuper.ar/"><img width="100%" src="./profile/misuper-es.svg?v=1" alt="MiSUPER: punto de venta y gestión para kioscos" /></a>
@@ -98,7 +98,7 @@ Diseñé desde cero el CRM que opera **TuMatch/Orkezto** (en producción hace m�
 
 Head of Product & Operations at **Grupo Propital**, based in **San Juan, Argentina**. I started out as a developer building real systems with AI; today I lead product and operations across the whole group, combining strategy, architecture, and hands-on execution.
 
-I designed and built from scratch the CRM that runs **TuMatch/Orkezto** (in production for over two years) and the integrations that connect the ecosystem to **Numinap**. In parallel I run **Made In 3D**, my additive-manufacturing venture.
+I designed and built from scratch the CRM that runs **TuMatch/Orkezto** (in production) and the integrations that connect the ecosystem to **Numinap**. In parallel I run **Made In 3D**, my additive-manufacturing venture.
 
 **💼 What I do**
 - Product & operations for TuMatch/Orkezto, Numinap, Propital, Propirent and Orvyt
@@ -121,10 +121,10 @@ I designed and built from scratch the CRM that runs **TuMatch/Orkezto** (in prod
   <img width="100%" src="./profile/ecosystem-en.svg?v=7" alt="Grupo Propital ecosystem" />
 </p>
 
-- **🏢 TuMatch & Orkezto CRM** · _in production_ — white-label multi-brand CRM I designed from scratch: leads, properties, billing and memberships for the whole network, with six external integrations. `Next.js` · `TypeScript` · `Supabase` · `Python`
-- **🏘️ Orvyt** · _in production_ — payment integrations (MercadoPago, Stripe), messaging (Twilio WhatsApp/SMS), an after-sales module and dark mode. `Next.js` · `Supabase` · `Stripe`
-- **🌐 [TuMatch Web](https://www.tumatchinmobiliario.com/)** · _public_ — institutional website for the proptech. `Next.js` · `TypeScript`
-- **🌐 [Portfolio](https://www.matiasaguero.dev/)** · _open source_ — Lighthouse >95, AI chatbot, command palette and ES/EN. `Next.js 15` · `Tailwind` · `Framer Motion`
+- **🏢 TuMatch & Orkezto CRM** · _in production_: white-label multi-brand CRM I designed from scratch: leads, properties, billing and memberships for the whole network, with six external integrations. `Next.js` · `TypeScript` · `Supabase` · `Python`
+- **🏘️ Orvyt** · _in production_: payment integrations (MercadoPago, Stripe), messaging (Twilio WhatsApp/SMS), an after-sales module and dark mode. `Next.js` · `Supabase` · `Stripe`
+- **🌐 [TuMatch Web](https://www.tumatchinmobiliario.com/)** · _public_: institutional website for the proptech. `Next.js` · `TypeScript`
+- **🌐 [Portfolio](https://www.matiasaguero.dev/)** · _open source_: Lighthouse >95, AI chatbot, command palette and ES/EN. `Next.js 15` · `Tailwind` · `Framer Motion`
 
 <p align="center">
   <a href="https://www.misuper.ar/"><img width="100%" src="./profile/misuper-en.svg?v=1" alt="MiSUPER: point of sale and management for kiosks" /></a>
@@ -135,6 +135,5 @@ I designed and built from scratch the CRM that runs **TuMatch/Orkezto** (in prod
 ---
 
 <p align="center">
-  <i>Respondo todos los mensajes en menos de 24 horas · I reply to every message within 24 hours.</i><br>
   <a href="https://www.matiasaguero.dev/">matiasaguero.dev</a>
 </p>
