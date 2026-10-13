@@ -11,9 +11,9 @@ text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;}
 <text x="25" y="35" fill="#f97316" font-size="18" font-weight="600">Most Used Languages</text>
 <clipPath id="bar"><rect x="25" y="55" width="300" height="8" rx="4"/></clipPath>
 <g class="bar" clip-path="url(#bar)">
-<rect x="25.00" y="55" width="239.55" height="8" fill="#3178c6"/>
-<rect x="264.05" y="55" width="30.05" height="8" fill="#e34c26"/>
-<rect x="293.60" y="55" width="21.39" height="8" fill="#336790"/>
+<rect x="25.00" y="55" width="239.59" height="8" fill="#3178c6"/>
+<rect x="264.09" y="55" width="30.03" height="8" fill="#e34c26"/>
+<rect x="293.62" y="55" width="21.38" height="8" fill="#336790"/>
 <rect x="314.50" y="55" width="6.96" height="8" fill="#f1e05a"/>
 <rect x="320.96" y="55" width="2.95" height="8" fill="#663399"/>
 <rect x="323.41" y="55" width="1.86" height="8" fill="#3572A5"/>
@@ -21,11 +21,11 @@ text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;}
 </g>
 <g class="n" style="animation-delay:0.40s">
 <circle cx="30" cy="91" r="5" fill="#3178c6"/>
-<text x="41" y="95" fill="#c9c9d3" font-size="12">TypeScript 79.68%</text>
+<text x="41" y="95" fill="#c9c9d3" font-size="12">TypeScript 79.70%</text>
 </g>
 <g class="n" style="animation-delay:0.48s">
 <circle cx="190" cy="91" r="5" fill="#e34c26"/>
-<text x="201" y="95" fill="#c9c9d3" font-size="12">HTML 9.85%</text>
+<text x="201" y="95" fill="#c9c9d3" font-size="12">HTML 9.84%</text>
 </g>
 <g class="n" style="animation-delay:0.56s">
 <circle cx="30" cy="121" r="5" fill="#336790"/>
