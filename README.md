@@ -26,7 +26,7 @@ Soy responsable del CRM que opera **TuMatch/Orkezto** (en producción, 400+ PR) 
 - Arquitectura, integraciones y decisiones técnicas
 - Coordinación ejecutiva y financiera en proptech
 
-🛠️ Stack: Next.js · TypeScript · Supabase · PostgreSQL · Python · n8n<br>
+🛠️ Stack: Next.js · TypeScript · Supabase · PostgreSQL · Python<br>
 🔗 [Portfolio](https://www.matiasaguero.dev/) · [LinkedIn](https://linkedin.com/in/matias-valent%C3%ADn-aguero-ventrice)<br>
 🎓 Técnico Electrónico · Tecnicatura en Programación, UNSJ _(parcial)_<br>
 🗣️ Español nativo · English B1<br>
@@ -68,7 +68,6 @@ Soy responsable del CRM que opera **TuMatch/Orkezto** (en producción, 400+ PR) 
   <img src="https://img.shields.io/badge/Supabase-0a0a0a?style=flat-square&logo=supabase&logoColor=3ECF8E" alt="Supabase">
   <img src="https://img.shields.io/badge/PostgreSQL-0a0a0a?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=3776AB" alt="Python">
-  <img src="https://img.shields.io/badge/n8n-0a0a0a?style=flat-square&logo=n8n&logoColor=EA4B71" alt="n8n">
   <img src="https://img.shields.io/badge/Vercel-0a0a0a?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
   <img src="https://img.shields.io/badge/Claude-0a0a0a?style=flat-square&logo=anthropic&logoColor=D97757" alt="Claude">
 </p>
@@ -107,7 +106,7 @@ I'm responsible for the CRM that runs **TuMatch/Orkezto** (in production, 400+ P
 - Architecture, integrations, and technical decisions
 - Executive and financial coordination in proptech
 
-🛠️ Stack: Next.js · TypeScript · Supabase · PostgreSQL · Python · n8n<br>
+🛠️ Stack: Next.js · TypeScript · Supabase · PostgreSQL · Python<br>
 🔗 [Portfolio](https://www.matiasaguero.dev/) · [LinkedIn](https://linkedin.com/in/matias-valent%C3%ADn-aguero-ventrice)<br>
 🎓 Electronics Technician · Programming degree, UNSJ _(partial)_<br>
 🗣️ Spanish (native) · English (B1)<br>
