@@ -17,15 +17,17 @@
 
 <img align="right" width="300" src="./profile/portrait.svg" alt="Retrato ASCII de Matías" />
 
-Head of Product & Operations en **Grupo Propital**, desde **San Juan, Argentina**. Empecé como developer construyendo sistemas reales con IA; hoy lidero producto y operaciones de todo el grupo, combinando estrategia, arquitectura y ejecución técnica.
+Head of Product & Operations en **Grupo Propital**, desde **San Juan, Argentina**. Empecé como developer construyendo sistemas reales con IA; hoy lidero producto y operaciones de cuatro productos del grupo, combinando estrategia, arquitectura y ejecución técnica.
 
-Diseñé desde cero el CRM que opera **TuMatch/Orkezto** (en producción) y las integraciones que conectan el ecosistema con **Numinap**. En paralelo dirijo **Made In 3D**, mi emprendimiento de manufactura aditiva.
+Soy responsable del CRM que opera **TuMatch/Orkezto** (en producción, 400+ PR) y de las integraciones que conectan el ecosistema con **Numinap**. En paralelo dirijo **Made In 3D**, mi emprendimiento de manufactura aditiva.
 
 **💼 Qué hago**
 - Producto y operaciones de TuMatch/Orkezto, Numinap, Propital, Propirent y Orvyt
 - Arquitectura, integraciones y decisiones técnicas
-- Coordinación ejecutiva, financiera y legal en proptech
+- Coordinación ejecutiva y financiera en proptech
 
+🛠️ Stack: Next.js · TypeScript · Supabase · PostgreSQL · Python<br>
+🔗 [Portfolio](https://www.matiasaguero.dev/) · [LinkedIn](https://linkedin.com/in/matias-valent%C3%ADn-aguero-ventrice)<br>
 🎓 Técnico Electrónico · Tecnicatura en Programación, UNSJ _(parcial)_<br>
 🗣️ Español nativo · English B1<br>
 🟢 Disponible para conversar sobre producto, tecnología y operaciones
@@ -46,7 +48,7 @@ Diseñé desde cero el CRM que opera **TuMatch/Orkezto** (en producción) y las 
   <img width="100%" src="./profile/ecosystem-es.svg?v=7" alt="Ecosistema Grupo Propital" />
 </p>
 
-- **🏢 CRM TuMatch & Orkezto** · _en producción_: CRM white-label multi-marca que diseñé desde cero: leads, propiedades, cobranzas y membresías de toda la red, con seis integraciones externas. `Next.js` · `TypeScript` · `Supabase` · `Python`
+- **🏢 CRM TuMatch & Orkezto** · _en producción_: CRM white-label multi-marca del que soy responsable (400+ PR): leads, propiedades, cobranzas y membresías de toda la red, con seis integraciones externas. `Next.js` · `TypeScript` · `Supabase` · `Python`
 - **🏘️ Orvyt** · _en producción_: integraciones de pago (MercadoPago, Stripe), mensajería (Twilio WhatsApp/SMS), módulo de postventa y dark mode. `Next.js` · `Supabase` · `Stripe`
 - **🌐 [TuMatch Web](https://www.tumatchinmobiliario.com/)** · _público_: sitio institucional de la proptech. `Next.js` · `TypeScript`
 - **🌐 [Portfolio](https://www.matiasaguero.dev/)** · _open source_: Lighthouse >95, chatbot IA, command palette y ES/EN. `Next.js 15` · `Tailwind` · `Framer Motion`
@@ -66,7 +68,6 @@ Diseñé desde cero el CRM que opera **TuMatch/Orkezto** (en producción) y las 
   <img src="https://img.shields.io/badge/Supabase-0a0a0a?style=flat-square&logo=supabase&logoColor=3ECF8E" alt="Supabase">
   <img src="https://img.shields.io/badge/PostgreSQL-0a0a0a?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=3776AB" alt="Python">
-  <img src="https://img.shields.io/badge/n8n-0a0a0a?style=flat-square&logo=n8n&logoColor=EA4B71" alt="n8n">
   <img src="https://img.shields.io/badge/Vercel-0a0a0a?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
   <img src="https://img.shields.io/badge/Claude-0a0a0a?style=flat-square&logo=anthropic&logoColor=D97757" alt="Claude">
 </p>
@@ -96,15 +97,17 @@ Diseñé desde cero el CRM que opera **TuMatch/Orkezto** (en producción) y las 
 
 <img align="right" width="300" src="./profile/portrait.svg" alt="ASCII portrait of Matías" />
 
-Head of Product & Operations at **Grupo Propital**, based in **San Juan, Argentina**. I started out as a developer building real systems with AI; today I lead product and operations across the whole group, combining strategy, architecture, and hands-on execution.
+Head of Product & Operations at **Grupo Propital**, based in **San Juan, Argentina**. I started out as a developer building real systems with AI; today I lead product and operations across four of the group's products, combining strategy, architecture, and hands-on execution.
 
-I designed and built from scratch the CRM that runs **TuMatch/Orkezto** (in production) and the integrations that connect the ecosystem to **Numinap**. In parallel I run **Made In 3D**, my additive-manufacturing venture.
+I'm responsible for the CRM that runs **TuMatch/Orkezto** (in production, 400+ PRs) and the integrations that connect the ecosystem to **Numinap**. In parallel I run **Made In 3D**, my additive-manufacturing venture.
 
 **💼 What I do**
 - Product & operations for TuMatch/Orkezto, Numinap, Propital, Propirent and Orvyt
 - Architecture, integrations, and technical decisions
-- Executive, financial, and legal coordination in proptech
+- Executive and financial coordination in proptech
 
+🛠️ Stack: Next.js · TypeScript · Supabase · PostgreSQL · Python<br>
+🔗 [Portfolio](https://www.matiasaguero.dev/) · [LinkedIn](https://linkedin.com/in/matias-valent%C3%ADn-aguero-ventrice)<br>
 🎓 Electronics Technician · Programming degree, UNSJ _(partial)_<br>
 🗣️ Spanish (native) · English (B1)<br>
 🟢 Open to conversations about product, technology, and operations
@@ -121,7 +124,7 @@ I designed and built from scratch the CRM that runs **TuMatch/Orkezto** (in prod
   <img width="100%" src="./profile/ecosystem-en.svg?v=7" alt="Grupo Propital ecosystem" />
 </p>
 
-- **🏢 TuMatch & Orkezto CRM** · _in production_: white-label multi-brand CRM I designed from scratch: leads, properties, billing and memberships for the whole network, with six external integrations. `Next.js` · `TypeScript` · `Supabase` · `Python`
+- **🏢 TuMatch & Orkezto CRM** · _in production_: white-label multi-brand CRM I'm responsible for (400+ PRs): leads, properties, billing and memberships for the whole network, with six external integrations. `Next.js` · `TypeScript` · `Supabase` · `Python`
 - **🏘️ Orvyt** · _in production_: payment integrations (MercadoPago, Stripe), messaging (Twilio WhatsApp/SMS), an after-sales module and dark mode. `Next.js` · `Supabase` · `Stripe`
 - **🌐 [TuMatch Web](https://www.tumatchinmobiliario.com/)** · _public_: institutional website for the proptech. `Next.js` · `TypeScript`
 - **🌐 [Portfolio](https://www.matiasaguero.dev/)** · _open source_: Lighthouse >95, AI chatbot, command palette and ES/EN. `Next.js 15` · `Tailwind` · `Framer Motion`
