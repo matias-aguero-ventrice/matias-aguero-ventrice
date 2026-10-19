@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920" height="470" viewBox="0 0 920 470" role="img" aria-label="MiSUPER, desarrollo propio: punto de venta y gestión para kioscos, mostrado en notebook y celular">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920" height="470" viewBox="0 0 920 470" role="img" aria-label="MiSUPER, proyecto propio en producción: gestión para comercios de barrio con facturación electrónica ARCA, ventas sin internet, app de celular y portal de proveedores, mostrado en notebook y celular">
 <style>
 text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;}
 .f{opacity:0;animation:up .7s cubic-bezier(.2,.8,.3,1) forwards;}
@@ -30,39 +30,40 @@ text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;}
 <text x="28" y="112" fill="#f5f5f5" font-size="42" font-weight="700" letter-spacing="-1">Mi<tspan fill="#e8a33a">SUPER</tspan></text>
 </g>
 <g class="f" style="animation-delay:.4s">
-<text x="30" y="142" fill="#c9c9d3" font-size="14">Punto de venta y gestión para</text>
-<text x="30" y="161" fill="#c9c9d3" font-size="14">kioscos y comercios minoristas</text>
+<text x="30" y="142" fill="#c9c9d3" font-size="14">Gestión para comercios de barrio:</text>
+<text x="30" y="161" fill="#c9c9d3" font-size="14">kioscos, almacenes y verdulerías</text>
 </g>
 <g class="f" style="animation-delay:0.60s">
 <rect x="30" y="185" width="14" height="14" rx="4" fill="#e8a33a" fill-opacity=".15" stroke="#e8a33a" stroke-opacity=".6"/>
 <path d="M33.5,192 l2.6,2.6 l4.6,-5" fill="none" stroke="#e8a33a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="54" y="196" fill="#c9c9d3" font-size="12.5">Cobro rápido con escáner y atajos de teclado</text>
+<text x="54" y="196" fill="#c9c9d3" font-size="12.5">Sigue vendiendo sin internet, sin cobrar dos veces</text>
 </g>
 <g class="f" style="animation-delay:0.72s">
 <rect x="30" y="212" width="14" height="14" rx="4" fill="#e8a33a" fill-opacity=".15" stroke="#e8a33a" stroke-opacity=".6"/>
 <path d="M33.5,219 l2.6,2.6 l4.6,-5" fill="none" stroke="#e8a33a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="54" y="223" fill="#c9c9d3" font-size="12.5">Inventario y control de stock</text>
+<text x="54" y="223" fill="#c9c9d3" font-size="12.5">Facturación electrónica ARCA (A, B y C)</text>
 </g>
 <g class="f" style="animation-delay:0.84s">
 <rect x="30" y="239" width="14" height="14" rx="4" fill="#e8a33a" fill-opacity=".15" stroke="#e8a33a" stroke-opacity=".6"/>
 <path d="M33.5,246 l2.6,2.6 l4.6,-5" fill="none" stroke="#e8a33a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="54" y="250" fill="#c9c9d3" font-size="12.5">Caja, pedidos, clientes y reportes</text>
+<text x="54" y="250" fill="#c9c9d3" font-size="12.5">Datos aislados por negocio y sucursal</text>
 </g>
 <g class="f" style="animation-delay:0.96s">
 <rect x="30" y="266" width="14" height="14" rx="4" fill="#e8a33a" fill-opacity=".15" stroke="#e8a33a" stroke-opacity=".6"/>
 <path d="M33.5,273 l2.6,2.6 l4.6,-5" fill="none" stroke="#e8a33a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="54" y="277" fill="#c9c9d3" font-size="12.5">IA Insights y marketplace</text>
+<text x="54" y="277" fill="#c9c9d3" font-size="12.5">Suscripciones con Mercado Pago</text>
 </g>
 <g class="f" style="animation-delay:1.08s">
 <rect x="30" y="293" width="14" height="14" rx="4" fill="#e8a33a" fill-opacity=".15" stroke="#e8a33a" stroke-opacity=".6"/>
 <path d="M33.5,300 l2.6,2.6 l4.6,-5" fill="none" stroke="#e8a33a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="54" y="304" fill="#c9c9d3" font-size="12.5">Web y mobile: un mismo sistema</text>
+<text x="54" y="304" fill="#c9c9d3" font-size="12.5">Web, app de celular y portal de proveedores</text>
 </g>
 <g class="f" style="animation-delay:1.30s">
 <circle cx="34" cy="341" r="3" fill="#22c55e"/>
-<text x="43" y="345" fill="#a1a1aa" font-size="11">demo en vivo · Next.js · TypeScript · Supabase</text>
+<text x="43" y="345" fill="#a1a1aa" font-size="11">en producción · 90 migraciones · +3.800 tests</text>
 <rect x="30" y="363" width="198" height="34" rx="17" fill="#e8a33a"/>
 <text x="129" y="385" fill="#1a1204" font-size="13" font-weight="700" text-anchor="middle">Probalo en misuper.ar →</text>
+<text x="30" y="430" fill="#a1a1aa" font-size="11">Next.js · React Native / Expo · TypeScript · Supabase / PostgreSQL · Mercado Pago · ARCA · Playwright</text>
 </g>
 <g class="lap"><g filter="url(#shadow)">
 <rect x="372" y="44" width="456" height="294" rx="12" fill="#1c1c1f" stroke="#3f3f46"/>
