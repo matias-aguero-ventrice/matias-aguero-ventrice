@@ -45,7 +45,7 @@ Soy responsable del CRM que opera **TuMatch/Orkezto** (en producción, 400+ PR) 
 ### 🚀 Software que construyo
 
 <p align="center">
-  <img width="100%" src="./profile/ecosystem-es.svg?v=7" alt="Ecosistema Grupo Propital" />
+  <img width="100%" src="./profile/ecosystem-es.svg?v=8" alt="Ecosistema Grupo Propital" />
 </p>
 
 - **🏢 CRM TuMatch & Orkezto** · _en producción_: CRM white-label multi-marca del que soy responsable (400+ PR): leads, propiedades, cobranzas y membresías de toda la red, con seis integraciones externas. `Next.js` · `TypeScript` · `Supabase` · `Python`
@@ -121,7 +121,7 @@ I'm responsible for the CRM that runs **TuMatch/Orkezto** (in production, 400+ P
 ### 🚀 Software I build
 
 <p align="center">
-  <img width="100%" src="./profile/ecosystem-en.svg?v=7" alt="Grupo Propital ecosystem" />
+  <img width="100%" src="./profile/ecosystem-en.svg?v=8" alt="Grupo Propital ecosystem" />
 </p>
 
 - **🏢 TuMatch & Orkezto CRM** · _in production_: white-label multi-brand CRM I'm responsible for (400+ PRs): leads, properties, billing and memberships for the whole network, with six external integrations. `Next.js` · `TypeScript` · `Supabase` · `Python`
