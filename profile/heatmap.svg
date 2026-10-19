@@ -388,8 +388,9 @@ text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;}
 <rect class="c" style="animation-delay:770ms" x="772" y="120" width="11" height="11" rx="2.5" fill="#9a3412"><title>45 contribuciones el 2026-10-15</title></rect>
 <rect class="c" style="animation-delay:784ms" x="772" y="134" width="11" height="11" rx="2.5" fill="#ea580c"><title>77 contribuciones el 2026-10-16</title></rect>
 <rect class="c" style="animation-delay:798ms" x="772" y="148" width="11" height="11" rx="2.5" fill="#431407"><title>31 contribuciones el 2026-10-17</title></rect>
-<rect class="c" style="animation-delay:728ms" x="786" y="64" width="11" height="11" rx="2.5" fill="#18181b"><title>0 contribuciones el 2026-10-18</title></rect>
-<text class="f" style="animation-delay:840ms" x="30" y="192" fill="#c9c9d3" font-size="13"><tspan fill="#f97316" font-weight="600">7,410</tspan> contribuciones  ·  mejor día: <tspan fill="#f97316" font-weight="600">219</tspan> (23 Sep 2026)  ·  días activos: <tspan fill="#f97316" font-weight="600">167</tspan>/365</text>
+<rect class="c" style="animation-delay:728ms" x="786" y="64" width="11" height="11" rx="2.5" fill="#431407"><title>1 contribución el 2026-10-18</title></rect>
+<rect class="c" style="animation-delay:742ms" x="786" y="78" width="11" height="11" rx="2.5" fill="#18181b"><title>0 contribuciones el 2026-10-19</title></rect>
+<text class="f" style="animation-delay:840ms" x="30" y="192" fill="#c9c9d3" font-size="13"><tspan fill="#f97316" font-weight="600">7,410</tspan> contribuciones  ·  mejor día: <tspan fill="#f97316" font-weight="600">219</tspan> (23 Sep 2026)  ·  días activos: <tspan fill="#f97316" font-weight="600">168</tspan>/366</text>
 <g class="f" style="animation-delay:840ms">
 <text x="695" y="192" fill="#a1a1aa" font-size="11" text-anchor="end">Menos</text>
 <rect x="701" y="182" width="11" height="11" rx="2.5" fill="#18181b"/>
