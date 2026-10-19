@@ -54,7 +54,7 @@ Soy responsable del CRM que opera **TuMatch/Orkezto** (en producción, 400+ PR) 
 - **🌐 [Portfolio](https://www.matiasaguero.dev/)** · _open source_: Lighthouse >95, chatbot IA, command palette y ES/EN. `Next.js 15` · `Tailwind` · `Framer Motion`
 
 <p align="center">
-  <a href="https://www.misuper.ar/"><img width="100%" src="./profile/misuper-es.svg?v=1" alt="MiSUPER: punto de venta y gestión para kioscos" /></a>
+  <a href="https://www.misuper.ar/"><img width="100%" src="./profile/misuper-es.svg?v=2" alt="MiSUPER: sistema de gestión para comercios de barrio, con facturación ARCA, ventas sin internet y app de celular" /></a>
 </p>
 
 ---
@@ -130,7 +130,7 @@ I'm responsible for the CRM that runs **TuMatch/Orkezto** (in production, 400+ P
 - **🌐 [Portfolio](https://www.matiasaguero.dev/)** · _open source_: Lighthouse >95, AI chatbot, command palette and ES/EN. `Next.js 15` · `Tailwind` · `Framer Motion`
 
 <p align="center">
-  <a href="https://www.misuper.ar/"><img width="100%" src="./profile/misuper-en.svg?v=1" alt="MiSUPER: point of sale and management for kiosks" /></a>
+  <a href="https://www.misuper.ar/"><img width="100%" src="./profile/misuper-en.svg?v=2" alt="MiSUPER: management system for neighborhood shops, with ARCA e-invoicing, offline sales and a mobile app" /></a>
 </p>
 
 </details>
