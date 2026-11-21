@@ -11,36 +11,36 @@ text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;}
 <text x="25" y="35" fill="#f97316" font-size="18" font-weight="600">Most Used Languages</text>
 <clipPath id="bar"><rect x="25" y="55" width="300" height="8" rx="4"/></clipPath>
 <g class="bar" clip-path="url(#bar)">
-<rect x="25.00" y="55" width="253.05" height="8" fill="#3178c6"/>
-<rect x="277.55" y="55" width="21.02" height="8" fill="#e34c26"/>
-<rect x="298.07" y="55" width="19.68" height="8" fill="#336790"/>
-<rect x="317.25" y="55" width="5.17" height="8" fill="#f1e05a"/>
-<rect x="321.92" y="55" width="2.35" height="8" fill="#663399"/>
-<rect x="323.77" y="55" width="1.54" height="8" fill="#3572A5"/>
+<rect x="25.00" y="55" width="253.35" height="8" fill="#3178c6"/>
+<rect x="277.85" y="55" width="20.86" height="8" fill="#e34c26"/>
+<rect x="298.21" y="55" width="19.54" height="8" fill="#336790"/>
+<rect x="317.24" y="55" width="5.13" height="8" fill="#f1e05a"/>
+<rect x="321.88" y="55" width="2.40" height="8" fill="#663399"/>
+<rect x="323.78" y="55" width="1.53" height="8" fill="#3572A5"/>
 <rect x="324.81" y="55" width="0.19" height="8" fill="#3f3f46"/>
 </g>
 <g class="n" style="animation-delay:0.40s">
 <circle cx="30" cy="91" r="5" fill="#3178c6"/>
-<text x="41" y="95" fill="#c9c9d3" font-size="12">TypeScript 84.18%</text>
+<text x="41" y="95" fill="#c9c9d3" font-size="12">TypeScript 84.28%</text>
 </g>
 <g class="n" style="animation-delay:0.48s">
 <circle cx="190" cy="91" r="5" fill="#e34c26"/>
-<text x="201" y="95" fill="#c9c9d3" font-size="12">HTML 6.84%</text>
+<text x="201" y="95" fill="#c9c9d3" font-size="12">HTML 6.79%</text>
 </g>
 <g class="n" style="animation-delay:0.56s">
 <circle cx="30" cy="121" r="5" fill="#336790"/>
-<text x="41" y="125" fill="#c9c9d3" font-size="12">PLpgSQL 6.39%</text>
+<text x="41" y="125" fill="#c9c9d3" font-size="12">PLpgSQL 6.35%</text>
 </g>
 <g class="n" style="animation-delay:0.64s">
 <circle cx="190" cy="121" r="5" fill="#f1e05a"/>
-<text x="201" y="125" fill="#c9c9d3" font-size="12">JavaScript 1.56%</text>
+<text x="201" y="125" fill="#c9c9d3" font-size="12">JavaScript 1.54%</text>
 </g>
 <g class="n" style="animation-delay:0.72s">
 <circle cx="30" cy="151" r="5" fill="#663399"/>
-<text x="41" y="155" fill="#c9c9d3" font-size="12">CSS 0.62%</text>
+<text x="41" y="155" fill="#c9c9d3" font-size="12">CSS 0.63%</text>
 </g>
 <g class="n" style="animation-delay:0.80s">
 <circle cx="190" cy="151" r="5" fill="#3572A5"/>
-<text x="201" y="155" fill="#c9c9d3" font-size="12">Python 0.35%</text>
+<text x="201" y="155" fill="#c9c9d3" font-size="12">Python 0.34%</text>
 </g>
 </svg>
