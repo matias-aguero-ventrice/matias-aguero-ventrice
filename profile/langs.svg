@@ -11,33 +11,33 @@ text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;}
 <text x="25" y="35" fill="#f97316" font-size="18" font-weight="600">Most Used Languages</text>
 <clipPath id="bar"><rect x="25" y="55" width="300" height="8" rx="4"/></clipPath>
 <g class="bar" clip-path="url(#bar)">
-<rect x="25.00" y="55" width="256.05" height="8" fill="#3178c6"/>
-<rect x="280.55" y="55" width="19.29" height="8" fill="#336790"/>
-<rect x="299.34" y="55" width="19.08" height="8" fill="#e34c26"/>
-<rect x="317.92" y="55" width="4.73" height="8" fill="#f1e05a"/>
-<rect x="322.15" y="55" width="2.24" height="8" fill="#663399"/>
-<rect x="323.89" y="55" width="1.44" height="8" fill="#3572A5"/>
+<rect x="25.00" y="55" width="255.70" height="8" fill="#3178c6"/>
+<rect x="280.20" y="55" width="20.10" height="8" fill="#336790"/>
+<rect x="299.81" y="55" width="18.74" height="8" fill="#e34c26"/>
+<rect x="318.05" y="55" width="4.65" height="8" fill="#f1e05a"/>
+<rect x="322.20" y="55" width="2.21" height="8" fill="#663399"/>
+<rect x="323.91" y="55" width="1.43" height="8" fill="#3572A5"/>
 <rect x="324.83" y="55" width="0.17" height="8" fill="#3f3f46"/>
 </g>
 <g class="n" style="animation-delay:0.40s">
 <circle cx="30" cy="91" r="5" fill="#3178c6"/>
-<text x="41" y="95" fill="#c9c9d3" font-size="12">TypeScript 85.18%</text>
+<text x="41" y="95" fill="#c9c9d3" font-size="12">TypeScript 85.07%</text>
 </g>
 <g class="n" style="animation-delay:0.48s">
 <circle cx="190" cy="91" r="5" fill="#336790"/>
-<text x="201" y="95" fill="#c9c9d3" font-size="12">PLpgSQL 6.26%</text>
+<text x="201" y="95" fill="#c9c9d3" font-size="12">PLpgSQL 6.53%</text>
 </g>
 <g class="n" style="animation-delay:0.56s">
 <circle cx="30" cy="121" r="5" fill="#e34c26"/>
-<text x="41" y="125" fill="#c9c9d3" font-size="12">HTML 6.19%</text>
+<text x="41" y="125" fill="#c9c9d3" font-size="12">HTML 6.08%</text>
 </g>
 <g class="n" style="animation-delay:0.64s">
 <circle cx="190" cy="121" r="5" fill="#f1e05a"/>
-<text x="201" y="125" fill="#c9c9d3" font-size="12">JavaScript 1.41%</text>
+<text x="201" y="125" fill="#c9c9d3" font-size="12">JavaScript 1.38%</text>
 </g>
 <g class="n" style="animation-delay:0.72s">
 <circle cx="30" cy="151" r="5" fill="#663399"/>
-<text x="41" y="155" fill="#c9c9d3" font-size="12">CSS 0.58%</text>
+<text x="41" y="155" fill="#c9c9d3" font-size="12">CSS 0.57%</text>
 </g>
 <g class="n" style="animation-delay:0.80s">
 <circle cx="190" cy="151" r="5" fill="#3572A5"/>
